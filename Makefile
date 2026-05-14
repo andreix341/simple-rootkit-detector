@@ -1,6 +1,6 @@
 CC      = gcc
 CFLAGS  = -Wall -Wextra -Iinclude -g
-SRC     = src/main.c src/proc_scan.c src/kill_scan.c src/dirent_scan.c src/compare.c
+SRC     = main.c src/proc_scan.c src/kill_scan.c src/dirent_scan.c src/compare.c
 TARGET  = rootkit-detector
 
 all: $(TARGET)

@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../include/dirent_scan.h"
-#include "../include/kill_scan.h"
-#include "../include/proc_scan.h"
-#include "../include/compare.h"
+#include "include/dirent_scan.h"
+#include "include/kill_scan.h"
+#include "include/proc_scan.h"
+#include "include/compare.h"
 
 int main(void)
 {
